@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px dashed black;   Debug */
+}
+
+:root {
+    --zoom-darker: rgba(34, 34, 34, 1);
+    --zomm-dark: rgba(74, 74, 74, 1);
+    --zoom-lighter: rgba(255, 255, 255, 1);
+    --zoom-danger: rgba(241, 11, 32, 1);
+    --zoom-succes: rgba(75, 200, 0, 1);
+}
