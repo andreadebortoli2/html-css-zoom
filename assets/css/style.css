@@ -17,6 +17,7 @@
 
 /* #region common */
 body {
+    background-color: var(--zoom-darker);
     height: 100vh;
 }
 
@@ -81,7 +82,6 @@ li {
 
 /* #region main */
 #site_main {
-    background-color: var(--zoom-main-bg);
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
@@ -112,14 +112,13 @@ li {
 /* #region footer */
 #site_footer {
     background-color: var(--zoom-darker);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .footer_menu {
     display: flex;
     justify-content: space-between;
-}
-
-.left_menu {
-    
 }
 
 .option_menu {
