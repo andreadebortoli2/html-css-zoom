@@ -14,8 +14,16 @@
 }
 
 /* #region common */
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
 img {
-    width: 100%;
+    height: 100%;
 }
 /* #endregion common */
 
@@ -26,9 +34,35 @@ img {
 }
 /* #endregion utilities */
 
+/* #region header */
+.top_right_btns {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+.header_btn {
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    background-color: var(--zomm-dark);
+}
+
+.speaker_view {
+    color: var(--zoom-lighter);
+    font-size: 0.7rem;
+}
+
+.enlarge_btn {
+    color: var(--zoom-lighter);
+    padding: 0 0.25rem;
+}
+/* #endregion header */
+
 /* #region main */
 #site_main {
     background-color: var(--zoom-darker);
+    padding-top: 5rem;
 }
 
 .row {
@@ -56,4 +90,4 @@ img {
     display: flex;
     justify-content: space-between;
 }
-/* #region footer */
+/* #endregion footer */
