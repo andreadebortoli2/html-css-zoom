@@ -17,7 +17,7 @@
 
 /* #region common */
 body {
-    background-color: var(--zoom-darker);
+    background-color: var(--zoom-main-bg);
     height: 100vh;
 }
 
@@ -136,5 +136,4 @@ li {
     background-color: var(--zoom-dark);
     padding: 1.5rem 1rem;
 }
-
 /* #endregion footer */
