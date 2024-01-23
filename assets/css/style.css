@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px dashed black;   Debug */
+    border: 1px dashed black;   Debug
 }
 
 :root {
@@ -50,3 +50,10 @@ img {
 
 }
 /* #endregion main */
+
+/* #region footer */
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+}
+/* #region footer */
