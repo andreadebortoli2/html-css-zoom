@@ -12,3 +12,41 @@
     --zoom-danger: rgba(241, 11, 32, 1);
     --zoom-succes: rgba(75, 200, 0, 1);
 }
+
+/* #region common */
+img {
+    width: 100%;
+}
+/* #endregion common */
+
+/* #region utilities */
+.container {
+    width: 80%;
+    margin: auto;
+}
+/* #endregion utilities */
+
+/* #region main */
+#site_main {
+    background-color: var(--zoom-darker);
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: calc(( 100% / 14 ) * 2);
+    padding: 0.25rem;
+    position: relative
+}
+
+.user_name {
+    color: var(--zoom-lighter);
+    background-color: var(--zomm-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+/* #endregion main */
