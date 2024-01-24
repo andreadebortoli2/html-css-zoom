@@ -95,13 +95,13 @@ li {
 }
 
 .main_container {
-    width: 90%;
     max-width: 1500px;
     margin: auto;
-    padding: 1rem 0;
+    padding: 1rem 3rem;
     gap: 10px;
     height: calc(100vh - 95px);
     overflow: auto;
+    justify-content: center;
 }
 
 .card {
