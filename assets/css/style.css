@@ -65,6 +65,7 @@ li {
 #site_header {
     position: relative;
     height: 35px;
+    background-color: var(--zoom-main-bg);
 }
 .top_right_btns {
     position: absolute;
@@ -95,16 +96,17 @@ li {
 
 .main_container {
     width: 90%;
+    max-width: 1500px;
     margin: auto;
-    max-width: 1200px;
+    padding: 1rem 0;
     gap: 10px;
     height: calc(100vh - 95px);
     overflow: auto;
 }
 
 .card {
-    width: 150px;
-    height: 75px;
+    width: 200px;
+    height: 100px;
     position: relative;
 }
 
